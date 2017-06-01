@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		266A0A221D8964A600ECEBC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266A0A211D8964A600ECEBC5 /* AppDelegate.swift */; };
+		266A0A241D8964A600ECEBC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266A0A231D8964A600ECEBC5 /* ViewController.swift */; };
+		266A0A271D8964A600ECEBC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 266A0A251D8964A600ECEBC5 /* Main.storyboard */; };
+		266A0A291D8964A600ECEBC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 266A0A281D8964A600ECEBC5 /* Assets.xcassets */; };
+		266A0A2C1D8964A600ECEBC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 266A0A2A1D8964A600ECEBC5 /* LaunchScreen.storyboard */; };
+		266A0A361D8965FB00ECEBC5 /* WeDont.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 266A0A331D8965FB00ECEBC5 /* WeDont.mp3 */; };
+		266A0A371D8965FB00ECEBC5 /* Work.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 266A0A341D8965FB00ECEBC5 /* Work.mp3 */; };
+		266A0A381D8965FB00ECEBC5 /* WorkFromHome.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 266A0A351D8965FB00ECEBC5 /* WorkFromHome.mp3 */; };
+		266A0A3A1D89691200ECEBC5 /* bikip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266A0A391D89691200ECEBC5 /* bikip.swift */; };
+		269796091D917AC900E5357A /* PopoverListSongTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269796081D917AC900E5357A /* PopoverListSongTableViewController.swift */; };
+		2697960C1D919F7100E5357A /* Y.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2697960B1D919F7100E5357A /* Y.mp3 */; };
+		269AA0211D8BFAFB00A38621 /* OutSide.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 269AA01B1D8BFAFB00A38621 /* OutSide.mp3 */; };
+		269AA0231D8BFAFB00A38621 /* IReallyLikeYou.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 269AA01D1D8BFAFB00A38621 /* IReallyLikeYou.mp3 */; };
+		269AA0241D8BFAFB00A38621 /* IntoYou.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 269AA01E1D8BFAFB00A38621 /* IntoYou.mp3 */; };
+		269AA0251D8BFAFB00A38621 /* NewRomantics.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 269AA01F1D8BFAFB00A38621 /* NewRomantics.mp3 */; };
+		269AA0261D8BFAFB00A38621 /* ThisIsWhatYouCameFor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 269AA0201D8BFAFB00A38621 /* ThisIsWhatYouCameFor.mp3 */; };
+		269AA02A1D8BFB8700A38621 /* IWillNeverLetYouDown.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 269AA0291D8BFB8700A38621 /* IWillNeverLetYouDown.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		266A0A1E1D8964A600ECEBC5 /* 14_Music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 14_Music.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		266A0A211D8964A600ECEBC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		266A0A231D8964A600ECEBC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		266A0A261D8964A600ECEBC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		266A0A281D8964A600ECEBC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		266A0A2B1D8964A600ECEBC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		266A0A2D1D8964A600ECEBC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		266A0A331D8965FB00ECEBC5 /* WeDont.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = WeDont.mp3; sourceTree = "<group>"; };
+		266A0A341D8965FB00ECEBC5 /* Work.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Work.mp3; sourceTree = "<group>"; };
+		266A0A351D8965FB00ECEBC5 /* WorkFromHome.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = WorkFromHome.mp3; sourceTree = "<group>"; };
+		266A0A391D89691200ECEBC5 /* bikip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bikip.swift; sourceTree = "<group>"; };
+		269796081D917AC900E5357A /* PopoverListSongTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverListSongTableViewController.swift; sourceTree = "<group>"; };
+		2697960B1D919F7100E5357A /* Y.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Y.mp3; sourceTree = "<group>"; };
+		269AA01B1D8BFAFB00A38621 /* OutSide.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = OutSide.mp3; sourceTree = "<group>"; };
+		269AA01D1D8BFAFB00A38621 /* IReallyLikeYou.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = IReallyLikeYou.mp3; sourceTree = "<group>"; };
+		269AA01E1D8BFAFB00A38621 /* IntoYou.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = IntoYou.mp3; sourceTree = "<group>"; };
+		269AA01F1D8BFAFB00A38621 /* NewRomantics.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = NewRomantics.mp3; sourceTree = "<group>"; };
+		269AA0201D8BFAFB00A38621 /* ThisIsWhatYouCameFor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ThisIsWhatYouCameFor.mp3; sourceTree = "<group>"; };
+		269AA0291D8BFB8700A38621 /* IWillNeverLetYouDown.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = IWillNeverLetYouDown.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		266A0A1B1D8964A600ECEBC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		266A0A151D8964A600ECEBC5 = {
+			isa = PBXGroup;
+			children = (
+				266A0A201D8964A600ECEBC5 /* 14_Music */,
+				266A0A1F1D8964A600ECEBC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		266A0A1F1D8964A600ECEBC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				266A0A1E1D8964A600ECEBC5 /* 14_Music.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		266A0A201D8964A600ECEBC5 /* 14_Music */ = {
+			isa = PBXGroup;
+			children = (
+				266A0A331D8965FB00ECEBC5 /* WeDont.mp3 */,
+				266A0A341D8965FB00ECEBC5 /* Work.mp3 */,
+				266A0A351D8965FB00ECEBC5 /* WorkFromHome.mp3 */,
+				269AA01B1D8BFAFB00A38621 /* OutSide.mp3 */,
+				269AA01D1D8BFAFB00A38621 /* IReallyLikeYou.mp3 */,
+				269AA01E1D8BFAFB00A38621 /* IntoYou.mp3 */,
+				269AA01F1D8BFAFB00A38621 /* NewRomantics.mp3 */,
+				269AA0201D8BFAFB00A38621 /* ThisIsWhatYouCameFor.mp3 */,
+				269AA0291D8BFB8700A38621 /* IWillNeverLetYouDown.mp3 */,
+				2697960B1D919F7100E5357A /* Y.mp3 */,
+				266A0A211D8964A600ECEBC5 /* AppDelegate.swift */,
+				266A0A231D8964A600ECEBC5 /* ViewController.swift */,
+				266A0A251D8964A600ECEBC5 /* Main.storyboard */,
+				269796081D917AC900E5357A /* PopoverListSongTableViewController.swift */,
+				266A0A281D8964A600ECEBC5 /* Assets.xcassets */,
+				266A0A2A1D8964A600ECEBC5 /* LaunchScreen.storyboard */,
+				266A0A2D1D8964A600ECEBC5 /* Info.plist */,
+				266A0A391D89691200ECEBC5 /* bikip.swift */,
+			);
+			path = 14_Music;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		266A0A1D1D8964A600ECEBC5 /* 14_Music */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 266A0A301D8964A600ECEBC5 /* Build configuration list for PBXNativeTarget "14_Music" */;
+			buildPhases = (
+				266A0A1A1D8964A600ECEBC5 /* Sources */,
+				266A0A1B1D8964A600ECEBC5 /* Frameworks */,
+				266A0A1C1D8964A600ECEBC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 14_Music;
+			productName = 14_Music;
+			productReference = 266A0A1E1D8964A600ECEBC5 /* 14_Music.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		266A0A161D8964A600ECEBC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = PhongLe;
+				TargetAttributes = {
+					266A0A1D1D8964A600ECEBC5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 266A0A191D8964A600ECEBC5 /* Build configuration list for PBXProject "14_Music" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 266A0A151D8964A600ECEBC5;
+			productRefGroup = 266A0A1F1D8964A600ECEBC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				266A0A1D1D8964A600ECEBC5 /* 14_Music */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		266A0A1C1D8964A600ECEBC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				266A0A381D8965FB00ECEBC5 /* WorkFromHome.mp3 in Resources */,
+				266A0A2C1D8964A600ECEBC5 /* LaunchScreen.storyboard in Resources */,
+				269AA0211D8BFAFB00A38621 /* OutSide.mp3 in Resources */,
+				266A0A361D8965FB00ECEBC5 /* WeDont.mp3 in Resources */,
+				269AA0231D8BFAFB00A38621 /* IReallyLikeYou.mp3 in Resources */,
+				2697960C1D919F7100E5357A /* Y.mp3 in Resources */,
+				266A0A371D8965FB00ECEBC5 /* Work.mp3 in Resources */,
+				269AA0241D8BFAFB00A38621 /* IntoYou.mp3 in Resources */,
+				269AA0251D8BFAFB00A38621 /* NewRomantics.mp3 in Resources */,
+				266A0A291D8964A600ECEBC5 /* Assets.xcassets in Resources */,
+				269AA0261D8BFAFB00A38621 /* ThisIsWhatYouCameFor.mp3 in Resources */,
+				269AA02A1D8BFB8700A38621 /* IWillNeverLetYouDown.mp3 in Resources */,
+				266A0A271D8964A600ECEBC5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		266A0A1A1D8964A600ECEBC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				269796091D917AC900E5357A /* PopoverListSongTableViewController.swift in Sources */,
+				266A0A3A1D89691200ECEBC5 /* bikip.swift in Sources */,
+				266A0A241D8964A600ECEBC5 /* ViewController.swift in Sources */,
+				266A0A221D8964A600ECEBC5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		266A0A251D8964A600ECEBC5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				266A0A261D8964A600ECEBC5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		266A0A2A1D8964A600ECEBC5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				266A0A2B1D8964A600ECEBC5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		266A0A2E1D8964A600ECEBC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		266A0A2F1D8964A600ECEBC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		266A0A311D8964A600ECEBC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 14_Music/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.phongle.-4-Music";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		266A0A321D8964A600ECEBC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 14_Music/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.phongle.-4-Music";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		266A0A191D8964A600ECEBC5 /* Build configuration list for PBXProject "14_Music" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				266A0A2E1D8964A600ECEBC5 /* Debug */,
+				266A0A2F1D8964A600ECEBC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		266A0A301D8964A600ECEBC5 /* Build configuration list for PBXNativeTarget "14_Music" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				266A0A311D8964A600ECEBC5 /* Debug */,
+				266A0A321D8964A600ECEBC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 266A0A161D8964A600ECEBC5 /* Project object */;
+}
